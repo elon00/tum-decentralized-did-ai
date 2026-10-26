@@ -1,0 +1,9 @@
+[package]
+name = "tum-decentralized-did-ai"
+version = "1.0.0"
+edition = "2021"
+authors = ["Martin Luther <martinlutherupa1@gmail.com>"]
+description = "W3C verifiable credentials with ZK disclosures"
+license = "MIT"
+
+[dependencies]

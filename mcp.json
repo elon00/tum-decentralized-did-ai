@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "tum-decentralized-did-ai": {
+      "command": "cargo",
+      "args": [
+        "run",
+        "--release",
+        "--quiet"
+      ],
+      "env": {
+        "RUST_LOG": "info",
+        "HACKATHON_TRACK": "TUM Munich",
+        "PROJECT_TICKER": "TUMDID"
+      },
+      "tools": [
+        {
+          "name": "verify_tumdid_invariants",
+          "description": "Verifies deterministic invariants for TUM Decentralized DID AI on TUM Munich."
+        },
+        {
+          "name": "execute_tumdid_action",
+          "description": "Executes authenticated Identity state transition."
+        }
+      ]
+    }
+  }
+}
